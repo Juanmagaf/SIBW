@@ -1,0 +1,403 @@
+
+/*Tamaño total de a pagina*/
+#pagina {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+     
+}
+
+#izquierda, #derecha {
+    background-color: none;
+}
+#centro { 
+   text-align: center;
+   width:500px;  
+   margin-left: auto;
+}
+#izquierda {  	
+   float: left;  
+    
+}   
+
+#derecha {  	
+   float: right;
+}
+
+
+
+/* Ocupa todas las noticias del index */
+#Noticias {
+    float: left;
+    background-color: azure;
+    width: 100%;
+    padding-bottom: 1%;
+    border: solid black 1px;
+}
+    /* Noticia Principal del index */
+    #noticia_principal {
+         float: left;
+         width:100%;
+         text-align: center;
+        border-bottom: double;
+    }
+        /* Noticias pagina principal */
+        #izquierda_noticias {
+            float: left; 
+            text-align: center;
+            width: 28%;
+            padding: 1%;
+        }
+
+        #centro_noticias {
+            float: left;
+            text-align: center;
+            width: 38%;
+            padding: 1%
+        }
+
+        #derecha_noticias {
+            float: left;
+            text-align: center;
+            width: 28%;
+            padding: 1%;
+        }
+
+
+
+#cabecera {
+    background-color:bisque;
+    float: left;
+    width: 100%;
+    border: solid black 1px;
+}
+
+/* Login cabecera */ 
+#Login {
+    background-color: coral;
+    text-align: center;
+    float: right;
+    width: 48%;
+}
+
+/* Logo Principal */
+#LogoCabecera {
+    width: 800px;
+    margin-left: 10%;
+}
+/* Pie de las páginas */
+#pie {
+    float: left;
+    background-color: aquamarine;
+    width: 99%;
+    padding-left: 1%;
+    border: solid black 1px;
+}
+
+    /* Se usa para cuando pasas el ratón por encima de un link */
+    a:link{
+        text-decoration: none;
+        color: black;
+
+    }
+    a:visited{
+        color: black;
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: dodgerblue;
+        text-decoration: none;
+    }
+
+
+/* LOGOS */
+
+    #LogosCabecera {
+        float: left;
+        width: 52%;
+        background-color: antiquewhite;
+    }
+
+    #LogosEstilo {
+        float: left;
+        height: 60px;
+    }
+
+
+    #Logos {
+        width: 50px;
+        height:50px;
+        float: right;
+    }
+
+h1 {
+    text-align: center;
+}
+
+#Cuerpo {
+    float: left;
+    width: 60%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    text-align: justify;
+    align-content: center;
+    background-color: azure;
+    border-top-color: black;
+    border-right-style: double;
+  
+}
+
+
+
+#Hass {
+    float: right;
+    max-width: 100%;
+    align-content: center;
+    text-align: center;
+    visibility: visible;
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+
+#Imagen {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+/* Imagenes publicidad*/
+#Publicidad {
+    width: 90%;
+    margin-top: 5%;
+    margin-top: 5%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* LATERAL GENERAL */
+
+#Lateral {
+    float: right;
+    max-width: 26%;
+    align-content: center;
+    text-align: center;
+    padding: 2%;
+    visibility: visible;
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+}
+
+/* NOTICIAS */
+
+#Noticia {
+    float:left;
+    width: 100%;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+    position: relative;
+}
+
+
+
+/* Texto noticia */
+#TextoNoticia {
+    background-color: aqua;
+    width:150px; 
+    margin-right: 30px;
+    width:300px;
+    height:30px;
+    margin: auto;
+}
+    /* Lateral comentarios */
+    
+    #Comentario {
+        width: 100%;
+        border-bottom: solid black 1px;
+        margin-bottom: 5%; 
+    }
+         /* Comentarios */
+        #Comentarios {
+            float: right;
+            width: 96%;
+            padding: 2%;
+            visibility: hidden;
+            position: relative;
+            z-index: 2;
+            overflow-y: scroll;
+            max-height: auto; 
+        }
+
+        /* Botón enviar */
+        #Enviar {
+            float: right;
+            text-align: center;
+            width: 25%;
+            margin-top: 5%;
+        }
+
+    /* Autor y fecha de cada noticia */
+    #autor-fecha {
+        width: 100%;
+        min-height: 20px;
+        background-color: none;
+    }
+
+    /* Foto de cada noticia */
+    #foto {
+        text-align: center;
+        font-style: italic;
+    }
+
+    /* Video Noticias */
+    #video {
+        width: 80%;
+        height: 30%;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+        display: block;
+    }
+    
+   
+
+/* Logo comentarios */
+#Logo_Comentarios {
+     width: 50px;
+    height: 50px;
+    float: right;
+}
+
+
+
+   
+
+/* SECCIONES */
+
+#Seccion {
+    float: left;
+    width: 100%;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+    position: relative;
+    height: auto;
+}
+
+/* Generar noticias de cada seccion */
+#noticia_seccion {
+    height: auto;
+    width: 96%;
+    padding: 2%;
+    float: left;
+    border-bottom: solid black 1px;
+}
+
+    /* Noticias de cada sección*/
+    #Lista_noticias {
+        float: left;
+        width: 70%;
+        text-align: justify;
+        background-color: azure;
+        border-top-color: black;
+        border-right-style: double;
+        height: auto;
+    }
+
+    /* Imagenes de cada sección */
+    #Imagen_Seccion {
+        float: left;
+        width: 40%;
+        padding: 2%;
+    }
+
+    /* Subsecciones */
+    #subsecciones {
+        width: 96%;
+        padding: 2%;
+        float: left;
+        border-bottom: solid black 1px;
+    }
+
+    /* Bordes laterales de las subsecciones*/
+    #sub {
+        height: 100%;
+        border-left: solid black 1px;
+        border-right: solid black 1px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+        /* Imagenes Galeria */
+
+            #Imagen_gal {
+                width: 50%;    
+                text-align: center;
+                margin: 0 auto;
+
+            }
+
+
+
+
+/*IMPRIMIR*/
+
+    #Logo_Imprimir {
+        float: right;
+        width: 50px;
+        height: 50px;
+    }
+
+    /*Imagen Vista de impresión */
+    #Imagen_Imp {
+        width: 100%;    
+        text-align: center;
+        margin: 0 auto;
+
+    }
+    /* Doscolumnas para imprimir.html*/
+    #newspaper {
+        columns: 200px 2;
+    }
+
+
+    #Cuerpo_imprimir {
+        padding-bottom: 1%;
+    }
+
+
+/*GESTORES*/
+
+#lista_comentarios {
+    float: left;
+    width: 60%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    text-align: justify;
+    align-content: center;
+    background-color: azure;
+    border-top-color: black;
+    border-right-style: double;
+}
+
+#botones_derecha {  	
+   text-align: right;
+}
+
+#foto_publicidad {  	
+    width: 30%;
+    text-align: center;
+    float: left;
+}
+
+#Buscador{
+    padding: 1%;
+    float: left;
+    width: 130px;
+    font-size: 18px;
+}

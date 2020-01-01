@@ -1,0 +1,7 @@
+<div class=”overlay-container”>
+<div class="window-container zoomin">
+<h3>Versión en Zoom in</h3>
+Texto de la ventana emergente<br/>
+<br/>
+<span>Cerrar</span>
+</div>

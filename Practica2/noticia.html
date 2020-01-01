@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portada</title>
+        <link rel="stylesheet" type="text/css" href="Css.css">
+        <script type = "text/javascript" src = "JavaScript/funciones.js"></script>
+    </head>
+    <body>
+        <div id="pagina">
+            <div id="cabecera">
+
+                <img id = "LogoCabecera" src="Imagenes/E-Sport-Logo.png">
+                <div id="LogosCabecera">
+                    <a href="index.html"><img id="LogosEstilo" src="Imagenes/Home.png"></a>
+                    <img id="LogosEstilo" src="Imagenes/LoL.png">
+                    <img id="LogosEstilo" src="Imagenes/CSGO.png">
+                    <img id="LogosEstilo" src="Imagenes/SC2.png">
+            </div>
+                <div id="Login">
+                    <h4>Iniciar Sesión - Registrarse - ¿Ha  olvidado la contraseña?</h4>
+                </div>
+            </div>
+       <div id = "Noticia">
+            <div id = "Cuerpo">
+                <!-- Titular -->
+                <h1>China albergará el Mundial de League of Legends 2017</h1>
+
+                <!-- Sección -->
+                <div id = derecha>
+                    <img id = "Logos" src= Imagenes/LogoLoL.png alt="LoL">
+                </div>
+
+                <!-- Subtítulo -->
+                <h2>El Estadio Olímpico de Pekín albergará la final de los Worlds 2017</h2>
+
+                <!-- Entradilla -->
+                <h3>El mítico estadio de los Juegos Olímpicos de 2008 será el escenario para la final de los mundiales de League of Legends en noviembre</h3>
+
+                <!-- Autor y fecha -->
+                <div id = autor-fecha>
+                    <div id = "izquierda">
+                        <strong>Gorka Posada</strong>
+                    </div>
+                    <div id = "derecha">
+                        <i>9/02/2017</i>
+                    </div>
+                </div>
+
+                <!-- Cuerpo -->
+
+                <p>Riot Games ha anunciado mediante su página web las fechas oficiales para la disputa del MSI y el Mundial de League of Legends de 2017. El MSI dará comienzo con la fase de apertura en Sao Paulo (Brasil) el 28 de abril y culminará tras la fase de grupos y la fase eliminatoria en Río de Janeiro el 21 de mayo.</p>
+
+                <p>Por otro lado, el Campeonato Mundial de League of Legends será en China después del tremendo éxito que tuvo en 2016, en donde los coreanos SK Telecom volvieron a alzarse con el trofeo por tercera vez. Wuhan será la ciudad que acoja la fase de apertura del evento el próximo 23 de septiembre.</p>
+
+                <p id = foto><img id = "Imagen" src= Imagenes/Copa_mundial.png alt="mundial">
+                - Copa del Mundial 2016
+                </p>
+
+                <p>Una vez culminada la fase de grupos, los cuartos de final se disputarán en Guangzhou, las semifinales en Shanghái y, como guinda al pastel, la final será el 4 de noviembre en el Estadio Nacional de Pekín, más conocido como 'El Nido del Cuco', que albergó los Juegos Olímpicos de 2008.</p> 
+
+                <p>Riot espera completar el aforo del estadio de la capital china en el país más apasionado por los eSports y League of Legends del mundo después del éxito del Campeonato Mundial de 2016 en Estados Unidos, donde completaron la capacidad del Madison Square Garden o el Staples Center de Los Ángeles, entre otros.</p>
+
+                <!-- Imprimir -->
+                <div id = derecha>
+                    <img id = "Logo_Comentarios" onclick="BotonComentarios()" src= Imagenes/comentarios.png alt="comentarios">
+                    <a href="imprimir.html"><img id = "Logos" src= Imagenes/impresora_logo.png alt="imprimir"></a>
+                </div>
+            </div>
+            <div id = "Lateral">
+                <strong><big>Noticias relacionadas</big></strong>
+                <h2>
+                <a href="#">League of Legends supera en espectadores a grandes eventos deportivos</a></h2>
+                <p id = foto><img id = "Imagen" src= Imagenes/Mundial_lol2.jpg alt="mundial">
+                </p>
+
+                <h2><a href="#">La IEM Katowice de 2017</a></h2>
+                <p id = foto><img id = "Imagen" src= Imagenes/iem_katowice.jpg alt="mundial">
+                </p>
+
+                <h2><a href="#">SKT T1 gana el Mundial de League of Legends 2016</a></h2>
+                <p id = foto><img id = "Imagen" src= Imagenes/skt_mundial.jpg alt="mundial">
+                </p>
+
+                <h2><a href="#">La LVP suspende a Cinkrof</a></h2>
+                <p id = foto><img id = "Imagen" src= Imagenes/Cinkrof.png alt="mundial">
+                </p>
+            </div>
+                
+           
+           <div id = "Comentarios">
+               <div id = "Comentario">
+                   <strong>Raúl</strong>
+                   <br>17/2/2017
+                   <div id = derecha>17:14:37</div>
+
+                   <p>Me encanta esta noticia es la mejor noticia que he leído en mi vida.</p>
+                </div>
+               
+               <div id = "Comentario">
+                   <strong>Juanma</strong>
+                   <br>19/2/2017
+                   <div id = derecha>10:25:42</div>
+
+                   <p>Esta noticia es inventada y se nota mucho.</p>
+                </div>
+               
+               <div id = "nuevo_comentario"></div>
+               
+               <li>Nombre</li>
+                   <input id = "name" type="text" name="name">
+               
+               <li>Correo</li>
+                   <input id = "correo" type="text" name="correo">
+                   
+               <li>Comentario</li>
+               
+               <textarea id = "comment"  onkeyup="Prohibidas()"></textarea>
+               
+               <button id="Enviar" onclick="CrearComentario()" type="submit" value="Enviar">Enviar</button>
+               
+             
+           </div>
+        </div>
+
+        <div id= "pie">
+                <div id=derecha>
+                    <a href="https://www.twitter.com" target="_blank"><img id="Logos" src="Imagenes\twitter_logo.jpg" alt="twitter"></a>
+
+                    <a href="https://www.facebook.com" target="_blank"><img id="Logos" src="Imagenes\facebook_logo.jpg" alt="facebook"></a>
+
+                    <a href="https://www.gmail.com" target="_blank"><img id="Logos" src="Imagenes\email_logo.jpg" alt="eMail"></a>
+                </div>  
+            <br><a href="#">Juan Raúl Moreno Tamayo / Juan Manuel González-Aurioles Fernández</a> 
+            </div>
+     </div>       
+    </body>
+</html>
